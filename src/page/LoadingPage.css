@@ -1,0 +1,18 @@
+.loadingDiv{
+    position: absolute;
+    overflow: hidden;
+    transition: 2s ease-in-out;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(37, 37, 37);
+    z-index: 500;
+}
+
+.loadingDiv h1{
+    font-size: 10vw;
+    color: orangered;
+
+}

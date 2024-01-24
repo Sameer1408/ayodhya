@@ -1,0 +1,42 @@
+#mainDivBanner{
+    /* background-image: url('F:\ram mandir ayodhya\my-app\src\images\banner.PNG'); */
+    height: 100vh;
+    position: absolute;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+#main{
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    background: linear-gradient(to right, #ffffff00,#ffffff00,#fffffffa, #def3ff);    
+    display: flex;
+    align-items: center;
+    justify-content: right;
+
+   }
+
+#detailsForm{
+    height: auto;
+    width: 40%;
+    margin-right: 50px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 1px 5px 20px rgba(128, 128, 128, 0.658);
+    padding: 100px 40px;
+}
+
+#detailsForm h1{
+    color: rgb(87, 87, 87);
+    text-align: center; 
+    position: relative;
+    bottom: 40px;
+}
+
+#info{
+    height: auto;
+}
