@@ -1,0 +1,11 @@
+#qrDiv{
+   display: flex;
+   justify-content: center;
+   margin-top: -50px;
+}
+
+#ticketDetails{
+   text-align: center;
+   margin-top: 40px;
+   padding: 10px 20px;
+}
