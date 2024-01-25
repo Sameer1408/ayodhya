@@ -1,22 +1,28 @@
+import './Summary.css'
+
 const Summary = () => {
     return (
-        <div className="summary">
-            <div class="container">
-                <div class="row">
-                    <div class="col">
-                        <div className="subSummary">
-                            Summary one
-                        </div>
+
+        <div class="container summary mt-4 mb-5">
+            <div class="row">
+                <div class="col">
+                    <div className="subSummary">
+                        Summary one
                     </div>
-                    <div class="col">
-                        Column
+                </div>
+                <div class="col">
+                <div className="subSummary">
+                        Summary one
                     </div>
-                    <div class="col">
-                        Column
+                </div>
+                <div class="col">
+                <div className="subSummary">
+                        Summary one
                     </div>
                 </div>
             </div>
         </div>
+
     )
 
 }

@@ -1,0 +1,22 @@
+.stepDiv{
+    /* border: 1px solid; */
+    height: 400px;
+    display: flex;
+    /* align-items: center; */
+    padding: 10px;
+    margin: 50px;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.stepDivT{
+      /* border: 1px solid; */
+      height: 400px;
+      display: flex;
+      /* align-items: center; */
+      padding: 10px;
+      margin: 50px;
+      justify-content: center;
+      flex-direction: column;
+      text-align: right;
+}
